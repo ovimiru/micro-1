@@ -1,7 +1,7 @@
 <?php
-echo 'Get data';
+//echo 'Get data';
 
-$url = "https://test-micro-2.herokuapp.com/index.php";
+$url = "https://test-micro-2.herokuapp.com";
 
 $homepage = file_get_contents($url);
-echo $homepage;
+echo "Nota este: " . $homepage;
